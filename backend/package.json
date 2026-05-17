@@ -1,0 +1,13 @@
+{
+  "name": "netscan-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NetScan backend server — serves static frontend assets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
