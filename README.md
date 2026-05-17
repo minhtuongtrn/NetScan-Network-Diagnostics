@@ -70,7 +70,7 @@ status-check-internet/
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd status-check-internet
+cd NetScan-Network-Diagnostics
 
 # Install all dependencies (frontend + backend)
 npm run install:all
