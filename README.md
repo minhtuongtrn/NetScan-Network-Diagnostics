@@ -24,21 +24,21 @@ A comprehensive, real-time network diagnostic tool built with **React + Vite** (
 
 ```
 status-check-internet/
-├── frontend/                    # React + Vite application
-│   ├── index.html               # Vite HTML entry point
-│   ├── package.json             # Frontend dependencies
-│   ├── vite.config.js           # Vite configuration
+├── frontend/                           # React + Vite application
+│   ├── index.html                      # Vite HTML entry point
+│   ├── package.json                    # Frontend dependencies
+│   ├── vite.config.js                  # Vite configuration
 │   └── src/
-│       ├── main.jsx             # React DOM root
-│       ├── App.jsx              # Main application orchestrator
-│       ├── diagnostics.js       # Network diagnostic logic module
+│       ├── main.jsx                    # React DOM root
+│       ├── App.jsx                     # Main application orchestrator
+│       ├── diagnostics.js              # Network diagnostic logic module
 │       ├── style/
-│       │   └── index.css        # Global styles (dark theme, animations)
+│       │   └── index.css               # Global styles (dark theme, animations)
 │       └── components/
-│           ├── Header.jsx       # App header with status badge
-│           ├── Hero.jsx         # Hero section with run button
-│           ├── SectionLabel.jsx # Section divider labels
-│           ├── SummaryBar.jsx   # Results summary bar
+│           ├── Header.jsx              # App header with status badge
+│           ├── Hero.jsx                # Hero section with run button
+│           ├── SectionLabel.jsx        # Section divider labels
+│           ├── SummaryBar.jsx          # Results summary bar
 │           └── cards/
 │               ├── CardShell.jsx       # Reusable card wrapper
 │               ├── ConnectionCard.jsx  # Connection type card
@@ -49,9 +49,9 @@ status-check-internet/
 │               ├── BlockCheckCard.jsx  # Reachability check card
 │               └── VerdictCard.jsx     # Final verdict card
 ├── backend/
-│   ├── server.js                # Express static file server
-│   └── package.json             # Backend dependencies
-├── package.json                 # Root scripts
+│   ├── server.js                       # Express static file server
+│   └── package.json                    # Backend dependencies
+├── package.json                        # Root scripts
 ├── .gitignore
 └── README.md
 ```
